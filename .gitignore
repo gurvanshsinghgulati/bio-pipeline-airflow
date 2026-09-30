@@ -1,0 +1,20 @@
+# Airflow execution database files
+*.db
+*.sqlite
+
+# Environmental credentials and keys
+.env
+.env.*
+
+# OS files and local system logs
+.DS_Store
+*.log
+
+# Python compilation directories
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated output images
+*.png
+*.csv
