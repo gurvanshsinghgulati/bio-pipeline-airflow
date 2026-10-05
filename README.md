@@ -39,8 +39,7 @@ mkdir -p dags logs config plugins bio_pipeline_data
 ### 2. Microservice Configuration (`.env`)
 Create an `.env` file next to your `docker-compose.yaml` to securely declare connection metrics and execution variables:
 ```env
-FERNET_KEY=NkNZd1Z4M19kM1ZaR1pXN1k5bVJ5WE5zYjNkbU5FUkM=
-_PIP_ADDITIONAL_REQUIREMENTS=matplotlib pandas scikit-learn
+FERNET_KEY=<generate your own, e.g. with `python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"`>
 ```
 
 ### 3. Build & Initialize Cluster Infrastructure
