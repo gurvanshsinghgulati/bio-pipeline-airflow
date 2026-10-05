@@ -24,7 +24,7 @@ The pipeline is registered as `bio_etl_dag` and manages four sequential data eng
 - **Message Broker**: Redis 7.2 (Permissive Bookworm Layer)
 - **Metadata Database**: PostgreSQL 16
 - **Data Engine**: SQLite 3 / Python 3.13 Virtual Environments
-- **Primary Libraries**: `pandas`, `matplotlib`, `scikit-learn`
+- **Primary Libraries**: `pandas`, `matplotlib`
 
 ---
 
